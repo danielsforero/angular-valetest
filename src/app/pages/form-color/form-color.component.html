@@ -1,0 +1,54 @@
+<form (submit)="saveData()">
+
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-6">
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <h3>Diseño del sistema</h3>
+                  <h4>Colores</h4>
+  
+                  <div class="form-group">
+                    <label for="primaryColor">Color primario:</label>
+                    <br>
+                    <small id="primaryColorHelp" class="form-text text-muted">Al modificar este control cambiarás el color de fondo en el portal.</small>
+                    <input type="color" class="form-control" id="primaryColor" name="primaryColor" [(ngModel)]="formData.primaryColor" aria-describedby="primaryColor" placeholder="Selecciona primary color">
+                    <hr>
+                  </div>
+      
+                  <div class="form-group">
+                    <label for="secundaryColor">Color secundario:</label>
+                    <br>
+                    <small id="secundaryColorHelp" class="form-text text-muted">Al modificar este control cambiarás el color en los textos del portal.</small>
+                    <input type="color" class="form-control" id="secundaryColor" name="secundaryColor" [(ngModel)]="formData.secundaryColor" aria-describedby="secundaryColor" placeholder="Selecciona secundary color">
+                    <hr>
+                  </div>
+      
+                  <div class="form-group">
+                    <label for="tertiaryColor">Color terciario:</label>
+                    <br>
+                    <small id="tertiaryColorHelp" class="form-text text-muted">Al modificar este control cambiarás el color en los botones dentro del portal.</small>
+                    <input type="color" class="form-control" id="tertiaryColor" name="tertiaryColor" [(ngModel)]="formData.tertiaryColor" aria-describedby="tertiaryColor" placeholder="Selecciona tertiary color">
+                    <hr>
+                  </div>
+                </div>
+              </div>
+              <div class="row text-center">
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                  <button type="submit" class="primary-button">Guardar cambios</button>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6">
+
+                  <button class="border-button" (click)="discart()">Descartar cambios</button>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+    </div>
+  </form>
+  

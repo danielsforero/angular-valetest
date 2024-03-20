@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.border-button {
+    top: 676px;
+    left: 51px;
+    width: 260px;
+    height: 44px;
+    margin-top: auto;
+    border: 2px solid;
+    border-radius: 22px;
+    opacity: 1;
+    border-color: var(--ngx-color-tertiary);
+}
+
+.primary-button {
+    top: 676px;
+    left: 51px;
+    width: 260px;
+    height: 44px;
+    margin-top: auto;
+    border-radius: 22px;
+    border: none;
+    opacity: 1;
+    background-color: var(--ngx-color-tertiary);
+}
+
+.color-tertiary {
+    color: var(--ngx-color-tertiary);
+}

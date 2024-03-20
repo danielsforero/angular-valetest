@@ -1,0 +1,52 @@
+.img-home {
+    top: 68px;
+    left: 347px;
+    width: 100%;
+    opacity: 1;
+}
+
+.img-home-desktop {
+    height: 400px;
+}
+
+.img-home-tablet {
+    height: 300px;
+}
+
+.img-home-mobile {
+    height: 180px;
+}
+
+.text-test {
+    text-align: center;
+    font: normal normal bold 32px/36px Euclid Circular B;
+    letter-spacing: 0px;
+    color: #1A0C3F;
+    opacity: 1;
+}
+
+// Move the content down so that it won't be hidden by the toolbar
+mat-list {
+    .entry {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 0.75rem;
+        border-radius: 8px;
+        opacity: 1;
+        justify-content: space-between;
+    }
+
+    .entry:hover {
+        background: #1A0C3F33 0% 0% no-repeat padding-box;
+    }
+
+    .entry-head {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 0.75rem;
+        border-radius: 8px;
+        opacity: 1;
+    }
+}

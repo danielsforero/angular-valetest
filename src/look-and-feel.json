@@ -1,0 +1,14 @@
+{
+  "lookAndFeel": {
+    "lookAndFeelId": 2,
+    "imageBackgroundLogin": "https://prod-resources.valepro.com.co/79/logo_2024-03-14-19-17.png",
+    "bigImageBackgroundLogin": "https://prod-resources.valepro.com.co/",
+    "useBigBackground": false,
+    "primaryColor": "#b43308",
+    "secondaryColor": "#13c331",
+    "tertiaryColor": "#33d0f0",
+    "background": "#1F134B",
+    "fontFamilyName": "Noto Sans",
+    "icon": "https://prod-resources.valepro.com.co/79/logo_2024-03-14-19-17.ico"
+  }
+}

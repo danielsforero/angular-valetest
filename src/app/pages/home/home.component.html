@@ -1,0 +1,52 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+          <img src="assets/banner.png" alt="" class="img-home" [ngClass]="isDesktop ? 'img-home-desktop' : isTablet ? 'img-home-tablet': 'img-home-mobile'">
+          <br><br><br>
+          <h1 class="text-center text-test">Bienvenido usuario !</h1>
+          <div class="row" *ngIf="!isDesktop">
+            <div class="col-md-12">
+                <mat-list >
+                  <a routerLink="/" mat-list-item >
+                    <div class="entry" >
+                      <span >
+                        <b>Gestión del sistema</b>
+                      </span>
+                      <mat-icon>arrow_forward</mat-icon>
+
+                    </div>
+                  </a>
+            
+                  <a routerLink="/" mat-list-item >
+                    <span class="entry">
+                      <b>Gestión de usuarios</b>
+                      <mat-icon>arrow_forward</mat-icon>
+                    </span>
+                  </a>
+            
+                  <a routerLink="/" mat-list-item >
+                    <span class="entry">
+                      <b>Gestión de programas</b>
+                      <mat-icon>arrow_forward</mat-icon>
+                    </span>
+                  </a>
+                  <a routerLink="/" mat-list-item >
+                    <span class="entry">
+                      <b>Gestión de misiones</b>
+                      <mat-icon>arrow_forward</mat-icon>
+                    </span>
+                  </a>
+            
+                  <a routerLink="/system-config" mat-list-item >
+                    <span class="entry">
+                      <b>Gestión de estilos y presentación</b>
+                      <mat-icon>arrow_forward</mat-icon>
+                    </span>
+                  </a>
+                  
+                </mat-list>
+            </div>
+          </div>      
+        </div>
+    </div>
+<div>

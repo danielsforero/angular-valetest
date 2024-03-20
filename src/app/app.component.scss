@@ -1,0 +1,92 @@
+h1 {
+    padding: 0 1rem;
+}
+
+h2 {
+    padding: 1rem;
+}
+
+mat-toolbar {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+mat-sidenav-container {
+    height: 100%;
+}
+
+// Move the content down so that it won't be hidden by the toolbar
+mat-sidenav {
+    padding-top: 3.5rem;
+
+    @media screen and (min-width: 600px) {
+        padding-top: 4rem;
+    }
+
+    top: 0px;
+    left: 0px;
+    width: 347px;
+    height: 760px;
+    /* UI Properties */
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    box-shadow: 3px 0px 6px #00000029;
+    opacity: 1;
+
+
+    .entry {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 0.75rem;
+        border-radius: 8px;
+        opacity: 1;
+        justify-content: space-between;
+        font-weight: bold;
+    }
+
+    .entry:hover {
+        background: #1A0C3F33 0% 0% no-repeat padding-box;
+    }
+
+    .entry-head {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 0.75rem;
+        border-radius: 8px;
+        opacity: 1;
+    }
+}
+
+// Move the content down so that it won't be hidden by the toolbar
+mat-sidenav-content {
+    padding-top: 3.5rem;
+
+    @media screen and (min-width: 600px) {
+        padding-top: 4rem;
+    }
+}
+
+.width-mobile {
+    width: 360;
+}
+
+.width-tablet {
+    width: 960;
+}
+
+.logout-button {
+    top: 676px;
+    left: 51px;
+    width: 260px;
+    height: 44px;
+    margin-top: auto;
+    border: 2px solid #C567F2;
+    border-radius: 22px;
+    opacity: 1;
+}
+
+.width-desktop {
+    width: 347;
+}
